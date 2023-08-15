@@ -1,0 +1,68 @@
+
+html{
+  font-size: 15px;
+}
+
+html,body {
+  
+    width: 100%;
+    height: 100%;
+    background-color: #f2f2f2;
+
+  }
+
+*{
+  font-family: 'Open Sans', sans-serif;
+  box-sizing: border-box;
+  padding: 0px;
+  margin: 0px;
+  
+}
+
+.inner{
+  max-width: 1200px;
+  margin: auto;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+.flex-box{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+  
+// header starts here
+
+@import "header";
+
+  // EXCLUSIVELY starts here
+
+@import "exclusively";
+
+// testimonials starts here
+
+@import "testimonials";
+
+// clients starts here
+
+@import "clients";
+
+// numbring starts here
+
+@import "numbring";
+
+// product starts here
+
+@import "product";
+
+// maria section starts here
+
+@import "maria";
+
+// footer starts here
+
+@import "footer";
+
+// media query starts here
+
+@import "media";

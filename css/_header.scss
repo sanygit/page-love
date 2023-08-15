@@ -1,0 +1,118 @@
+header{
+    background: url("../img/hero-bg.jpg");
+    width: 100%;
+    height: 100%;
+    background-repeat: no-repeat;
+    background-position: center ;
+    background-size: cover;
+    background-attachment: fixed;
+  
+    .overlay {
+      height: 100%;
+      width: 0;
+      position: fixed;
+      z-index: 1;
+      top: 0;
+      left: 0;
+      background-color: rgb(0,0,0);
+      background-color: rgba(0,0,0, 0.9);
+      overflow-x: hidden;
+      transition: 0.5s;
+    }
+    
+    .overlay-content {
+      position: relative;
+      top: 25%;
+      width: 100%;
+      text-align: center;
+      margin-top: 30px;
+      
+    }
+    
+    .overlay a {
+      padding: 8px;
+      text-decoration: none;
+      font-size: 36px;
+      color: #818181;
+      display: block;
+      transition: 0.3s;
+    }
+    
+    .overlay a:hover, .overlay a:focus {
+      color: #f1f1f1;
+    }
+    
+    .overlay .closebtn {
+      position: absolute;
+      top: 20px;
+      right: 45px;
+      font-size: 60px;
+    }
+  
+    .right{
+      float: right;
+      margin: 40px 40px;
+  
+    }
+  
+    .text{
+      float: right;
+      margin-top: 100px;
+  
+      h1{
+        font-size: 5rem;
+        color: white;
+      }
+  
+      span{
+        font-weight: 100;
+        font-size:4.5rem;
+      }
+  
+      h3{
+        font-weight: 100;
+        font-size: 2rem;
+        color: white;
+      }
+  
+      ul{
+        float: left;
+        list-style: none;
+        
+  
+        li{
+          float: left;
+          img{
+            width: 30px;
+            margin-left: 20px;
+           
+          }
+  
+        
+        }
+  
+        .lable{
+          color: #fff;
+          font-size: 1.5rem;
+        }
+  
+      }
+  
+      .btn{
+        padding: 20px 100px;
+        text-decoration: none;
+        background-color: #37a7ff;
+        border-radius: 50px;
+        color: white;
+        font-size: 1.2rem;
+        
+      }
+  
+      .btn:hover{
+        background: none;
+        border: 1px solid #37a7ff;
+        transition: all 0.10s;
+      }
+  
+    }
+  }

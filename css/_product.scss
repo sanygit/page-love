@@ -1,0 +1,35 @@
+.product{
+    width: 100%;
+    background: url("../img/bg-pat.png");
+    background-position: center top;
+    background-repeat:repeat;
+    background-color: #664fee;
+    padding: 100px 0px;
+    h1{
+     display: flex;
+     justify-content: center;
+     font-size: 3rem;
+     color: white;
+     
+    }
+  
+    a{
+      text-decoration: none;
+      text-align: center;
+      padding: 20px 100px;
+      background-color: #37a7ff;
+      border-radius: 50px;
+      color: white;
+      font-size: 1.2rem;
+      transition: all 0.5s;
+      position: relative;
+      left: 38%;
+      
+    }
+  
+    a:hover{
+      background: none;
+      border: 1px solid #37a7ff;
+      transition: all 0.10s;
+    }
+  }
